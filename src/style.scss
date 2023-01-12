@@ -1,0 +1,26 @@
+@import './assets//space_utils.scss';
+
+body{
+    margin: 0;
+}
+
+html{
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\5fae\8f6f\96c5\9ed1,Arial,sans-serif;
+}
+
+.fw, .el-row{
+    width: 100% !important;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.el-dropdown, .el-col .el-button{
+    width: 100%;
+}
+
+.el-col{
+    flex-direction: column;
+    display: flex !important;
+}
